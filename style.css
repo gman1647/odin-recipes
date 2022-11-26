@@ -1,7 +1,7 @@
 * {
     background-color: #CFD5D5;
     font-family: 'Courier New', Courier, monospace;
-    border: 2px solid red;
+/*    border: 2px solid red;  */
 }
 h1 { 
     text-align: center;
@@ -35,7 +35,11 @@ ol {
 
 .homelinks {
     font-size: 26px;
-    background-color: #0C9EE3;    
+    background-color: #0C9EE3;
+
+}
+a {
+    text-decoration: none;
 }
 
 a:link {
@@ -47,9 +51,19 @@ a:visited {
 }
 
 a:hover {
-    color:#1523e7
+    color:white;
 }
 
 a:active {
-    color:#white
+    color:white;
+}
+.indexbutton {
+    display: block;
+    margin: 8px;
+    background-color: #0C9EE3;
+    color: black;
+    font-weight: 700;
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 8px;
 }
